@@ -1,1 +1,3 @@
 # slack_reactor
+
+Slackで特定のスタンプが来たときに別のスタンプも自動で押すものです。Slack APIのevent subscriptionの機能を使って、reactionが追加された時と削除された時を監視して、それらをdoPost関数で処理したものです。
